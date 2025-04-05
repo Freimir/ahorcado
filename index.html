@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>El Verdugo</title>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+<body>
+<!-----------------Encabezado------------------>    
+    <header>
+        <div class="titulo">
+            <h1>El Verdugo</h1>
+        </div>
+        <nav>
+            <ul>
+                <button id="btn"> <a href="#" class="botton" id="toggleButton"> Iniciar </a></button>
+            </ul>
+        </nav>
+    </header>
+<!-----------------Encabezado------------------> 
+<!---------------------Body------------------->
+    <div id="welcomeScreen">
+        <center>
+            <div class="present">
+                <h2>Bienvenidos</h2>
+                <h4>¿Te atreves a poner a prueba tu ingenio y tu vocabulario?</h4><br>
+                <p>Una palabra secreta te espera, oculta a simple vista, desafiando tu capacidad para desvelarla. Tu misión es simple: adivinarla letra por letra.<br><br>
+                    Pero ¡cuidado! No estás solo en esta tarea. Con cada letra incorrecta que elijas, un pequeño dibujo comenzará a tomar forma... trazo a trazo, la tensión aumentará.<br><br>
+                    ¿Serás capaz de descifrar la palabra oculta antes de que la figura esté completa? Cada acierto te acerca a la victoria, pero cada error... te acerca al límite.<br><br>
+
+                    ¡Demuestra tu astucia! Acepta el desafío del clásico El Ahorcado. Agudiza tu mente, elige tus letras sabiamente y resuelve el enigma antes de que sea demasiado tarde.<br><br>
+                </p>
+                <h4>¿Listo para jugar? ¡La palabra te espera!</h4>
+                
+                <button id="btn"> <a href="#" class="botton" id="startButton"> Comenzar </a></button>
+            </div>
+        </center>
+    </div>
+
+    <div id="gameScreen" style="display: none;">
+        <div class="container">
+            <div class="game-panel">
+                <h1>Comienza a Jugar</h1>
+                <p class="guiones"></p>
+                <p>Intentos restantes: <span id="intentos">4</span></p>
+                <p>Progreso: <span id="porcentaje">0%</span></p>
+                <p>Introducir letra:</p>
+                <input type="text" maxlength="1" id="letraInput">
+                <br>
+                <button class="conf">Confirmar</button>
+            </div>
+            <div class="col">
+                <div class="ahorcado"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+<!---------------------Body------------------->
+<!-----------------Pie de Pagina------------------>
+
+    <footer>
+            <p>¡Diviértete jugando a El Ahorcado!</p>
+            <p>© 2025 [Keiver Blanco / Kenyhert Perez / Freimir Rojas]. Instituto Universitario "Jesús Obrero" Todos los derechos reservados.</p>
+    </footer>
+<!-----------------Pie de Pagina------------------>
+</body>
+</html>

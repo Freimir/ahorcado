@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    margin: 0%;    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #d6d794;
+    align-items: center;
+    padding: 20px;
+}
+footer{
+    height: 80px;
+    background-color: #d6d794;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+button{
+    display: flex;
+    padding-right: 40px;
+    background-color: #ffffff;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    border-color: #ffffff;
+}
+p{
+    width: 90%;
+    margin-left: 0.3%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    border: 0px;
+}
+nav a{
+    font-weight: 500;
+}
+nav a:hover{
+    color: #f2d584;
+}
+div a:hover{
+    color: #f2d584;
+}
+.titulo{
+    display: flex;
+}
+div.present{
+    display: flex;
+    background-color:#5a6242;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 15px;
+    color: #ffffff;
+    height: 510px;
+    width: 790px;
+}
+.container{
+    margin: auto;
+    max-width: 700px;
+    display: flex;
+}
+.ahorcado{
+    background-image: url(Orange\ Quote\ Cats\ Facebook\ Cover\ \(1\).png);
+    width: 300px;
+    height: 730px;;
+}
+
+.game-over, .win {
+    text-align: center;
+    padding: 20px;
+}
+
+.game-over h1, .win h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
